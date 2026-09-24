@@ -36,7 +36,7 @@ class FrameSequencePayload(BaseModel):
     sequence: List[List[float]]  # (T, 268)
 
 class TokensPayload(BaseModel):
-    tokens: List[str]
+    tokens: Optional[List[str]] = []
 
 @app.get("/")
 def root():
@@ -81,8 +81,9 @@ def predict_sequence(payload: FrameSequencePayload):
     }
 
 @app.post("/build_phrase")
-def build_phrase(payload: TokensPayload):
-    phrase_result = phrase_builder.build_phrase(payload.tokens)
+def build_phrase(payload: Optional[TokensPayload] = None):
+    tokens = payload.tokens if payload and payload.tokens else []
+    phrase_result = phrase_builder.build_phrase(tokens)
     return phrase_result
 
 @app.post("/reset_decoder")
@@ -111,10 +112,13 @@ async def websocket_feed(websocket: WebSocket):
     stop_event = asyncio.Event()
 
     async def client_listener():
-        nonlocal sample_idx
         try:
             while not stop_event.is_set():
-                data_text = await websocket.receive_text()
+                try:
+                    data_text = await websocket.receive_text()
+                except Exception:
+                    stop_event.set()
+                    break
                 try:
                     data = json.loads(data_text)
                     if "sequence" in data:
@@ -131,9 +135,11 @@ async def websocket_feed(websocket: WebSocket):
                             })
                     elif "ping" in data:
                         await websocket.send_json({"pong": True})
-                except Exception as parse_err:
+                except Exception:
                     pass
-        except (WebSocketDisconnect, asyncio.CancelledError):
+        except Exception:
+            pass
+        finally:
             stop_event.set()
 
     async def demo_broadcast():
@@ -147,15 +153,24 @@ async def websocket_feed(websocket: WebSocket):
                     sample_idx += 1
                     # Run real inference using the trained PyTorch Bi-GRU model
                     pred_label, conf, top3 = inference_engine.predict(sample_arr)
-                    await websocket.send_json({
-                        "word": pred_label,
-                        "confidence": round(float(conf), 2),
-                        "timestamp": datetime.now(timezone.utc).isoformat(),
-                        "top3": top3,
-                        "source": "live_model_evaluation"
-                    })
-                await asyncio.sleep(4.0)
-        except (WebSocketDisconnect, asyncio.CancelledError):
+                    try:
+                        await websocket.send_json({
+                            "word": pred_label,
+                            "confidence": round(float(conf), 2),
+                            "timestamp": datetime.now(timezone.utc).isoformat(),
+                            "top3": top3,
+                            "source": "live_model_evaluation"
+                        })
+                    except Exception:
+                        stop_event.set()
+                        break
+                try:
+                    await asyncio.sleep(4.0)
+                except asyncio.CancelledError:
+                    break
+        except Exception:
+            pass
+        finally:
             stop_event.set()
 
     listener_task = asyncio.create_task(client_listener())
@@ -163,11 +178,16 @@ async def websocket_feed(websocket: WebSocket):
 
     try:
         await stop_event.wait()
+    except Exception:
+        pass
     finally:
+        stop_event.set()
         listener_task.cancel()
         broadcast_task.cancel()
+        await asyncio.gather(listener_task, broadcast_task, return_exceptions=True)
         try:
-            await asyncio.gather(listener_task, broadcast_task, return_exceptions=True)
+            await websocket.close()
         except Exception:
             pass
+
 
