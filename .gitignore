@@ -1,0 +1,6 @@
+venv/
+data/raw_videos/
+data/landmarks/
+*.npy
+*.npz
+lowkeysigns/WLASL_repo/
