@@ -4,3 +4,7 @@ data/landmarks/
 *.npy
 *.npz
 lowkeysigns/WLASL_repo/
+
+lowkeysigns/data/raw_videos/
+*.mp4
+lowkeysigns/data/landmarks/

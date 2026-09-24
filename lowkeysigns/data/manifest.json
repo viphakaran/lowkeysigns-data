@@ -1,0 +1,1115 @@
+{
+  "help": {
+    "attempted": [
+      "27194",
+      "69364",
+      "27220",
+      "27219",
+      "27207",
+      "27206",
+      "27221",
+      "27208",
+      "27209",
+      "27210",
+      "27211",
+      "27212",
+      "65890",
+      "27213",
+      "27214"
+    ],
+    "succeeded": [
+      "27194",
+      "69364",
+      "27206",
+      "27208",
+      "27207",
+      "27209"
+    ],
+    "failed": [
+      {
+        "video_id": "27219",
+        "reason": "[youtube] RStYX5OXPjE: This video is unavailable"
+      },
+      {
+        "video_id": "27220",
+        "reason": "[generic] help: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "65890",
+        "reason": "[generic] HELP-2562: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "27213",
+        "reason": "[generic] 23431: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "27214",
+        "reason": "[generic] 5871: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "27221",
+        "reason": "[generic] help: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "27210",
+        "reason": "[generic] help2: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "27211",
+        "reason": "[generic] help-me: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "27212",
+        "reason": "[generic] help: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "wait": {
+    "attempted": [
+      "62077",
+      "62113",
+      "62098",
+      "62100",
+      "62101",
+      "62102",
+      "62103",
+      "62104",
+      "62105",
+      "62106",
+      "66740",
+      "62097",
+      "67034",
+      "62107",
+      "62109"
+    ],
+    "succeeded": [
+      "62077",
+      "62098",
+      "62100",
+      "62101",
+      "62103",
+      "62102",
+      "62097",
+      "62109"
+    ],
+    "failed": [
+      {
+        "video_id": "66740",
+        "reason": "[generic] WAIT-1405: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "62106",
+        "reason": "[generic] 7259: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "67034",
+        "reason": "[youtube] QlMV4KuPClU: Private video"
+      },
+      {
+        "video_id": "62113",
+        "reason": "[generic] stall: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "62107",
+        "reason": "[generic] 9671: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "62104",
+        "reason": "[generic] wait-long: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "62105",
+        "reason": "[generic] wait: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "money": {
+    "attempted": [
+      "36645",
+      "70075",
+      "68628",
+      "36651",
+      "36652",
+      "36653",
+      "36654",
+      "36657",
+      "66138",
+      "36648",
+      "67901",
+      "36658",
+      "36659",
+      "36660"
+    ],
+    "succeeded": [
+      "36645",
+      "70075",
+      "36652",
+      "36651",
+      "36648",
+      "36657",
+      "36658"
+    ],
+    "failed": [
+      {
+        "video_id": "68628",
+        "reason": "[youtube] KkaxA2qevPM: This video is unavailable"
+      },
+      {
+        "video_id": "36654",
+        "reason": "[generic] 6398: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "66138",
+        "reason": "[generic] MONEY-670: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "67901",
+        "reason": "[youtube] kuO_0XkfoZQ: Private video"
+      },
+      {
+        "video_id": "36659",
+        "reason": "[generic] money: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "36653",
+        "reason": "[generic] money: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "36660",
+        "reason": "[generic] fund2: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      }
+    ]
+  },
+  "form": {
+    "attempted": [
+      "23042",
+      "23047",
+      "23049",
+      "23050",
+      "23051",
+      "23053",
+      "23054",
+      "23055",
+      "23056",
+      "23043",
+      "23045",
+      "23046"
+    ],
+    "succeeded": [
+      "23042",
+      "23053",
+      "23043",
+      "23046",
+      "23045"
+    ],
+    "failed": [
+      {
+        "video_id": "23049",
+        "reason": "[generic] 1587: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "23050",
+        "reason": "[generic] 22337: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "23051",
+        "reason": "[generic] 22338: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "23054",
+        "reason": "[generic] form: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "23047",
+        "reason": "[generic] form-apply: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "23055",
+        "reason": "[generic] fix: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "23056",
+        "reason": "[generic] form: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      }
+    ]
+  },
+  "pain": {
+    "attempted": [
+      "40797",
+      "40810",
+      "40802",
+      "67956",
+      "40803",
+      "40804",
+      "40806",
+      "40807",
+      "40808",
+      "40809"
+    ],
+    "succeeded": [
+      "40797",
+      "40802",
+      "40803",
+      "40808"
+    ],
+    "failed": [
+      {
+        "video_id": "67956",
+        "reason": "[youtube] PUeBxtWPPFw: Private video"
+      },
+      {
+        "video_id": "40806",
+        "reason": "[generic] 23773: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "40807",
+        "reason": "[generic] 23774: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "40809",
+        "reason": "[generic] pain: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "40810",
+        "reason": "[generic] sore: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "40804",
+        "reason": "[generic] pain: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "doctor": {
+    "attempted": [
+      "17007",
+      "68842",
+      "70049",
+      "17015",
+      "17016",
+      "17017",
+      "17018",
+      "17019",
+      "17020",
+      "17022",
+      "65503",
+      "65504",
+      "17013",
+      "67579",
+      "17023"
+    ],
+    "succeeded": [
+      "17007",
+      "17015",
+      "17016",
+      "70049",
+      "17017",
+      "17022",
+      "17013",
+      "17023"
+    ],
+    "failed": [
+      {
+        "video_id": "68842",
+        "reason": "[youtube] QPiZO8Aswgo: This video is unavailable"
+      },
+      {
+        "video_id": "17019",
+        "reason": "[generic] 22643: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "17020",
+        "reason": "[generic] 22644: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "65503",
+        "reason": "[generic] DOCTOR-344: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "65504",
+        "reason": "[generic] DOCTOR-573: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "67579",
+        "reason": "[youtube] sSpld6bXlM0: Private video"
+      },
+      {
+        "video_id": "17018",
+        "reason": "[generic] doctor: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "yes": {
+    "attempted": [
+      "64275",
+      "69546",
+      "64287",
+      "68192",
+      "64290",
+      "64284",
+      "64291",
+      "64292",
+      "64293",
+      "64294",
+      "64295",
+      "64296",
+      "66820",
+      "64297",
+      "64280"
+    ],
+    "succeeded": [
+      "64275",
+      "64287",
+      "68192",
+      "69546",
+      "64284",
+      "64294",
+      "64296",
+      "64295",
+      "64280",
+      "64297"
+    ],
+    "failed": [
+      {
+        "video_id": "64291",
+        "reason": "[generic] 23544: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "64292",
+        "reason": "[generic] 23545: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "64293",
+        "reason": "[generic] 23546: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "66820",
+        "reason": "[generic] YES-1472: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "64290",
+        "reason": "[generic] yes: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "no": {
+    "attempted": [
+      "38482",
+      "69411",
+      "68110",
+      "68406",
+      "38539",
+      "38540",
+      "38541",
+      "38542",
+      "38525",
+      "38544",
+      "38527",
+      "38529",
+      "38530",
+      "38531",
+      "38532"
+    ],
+    "succeeded": [
+      "68110",
+      "69411",
+      "38482",
+      "38539",
+      "38540",
+      "38541",
+      "38525",
+      "38530",
+      "38529",
+      "38527"
+    ],
+    "failed": [
+      {
+        "video_id": "68406",
+        "reason": "[youtube] Dd95RFhtSs4: This video is unavailable"
+      },
+      {
+        "video_id": "38542",
+        "reason": "[generic] no: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "38532",
+        "reason": "[generic] 23547: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "38544",
+        "reason": "[generic] no: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "38531",
+        "reason": "[generic] no: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "thank you": {
+    "attempted": [
+      "57653",
+      "69502",
+      "68796",
+      "57663",
+      "57664",
+      "66598",
+      "57655",
+      "57665",
+      "57666",
+      "57667",
+      "57656",
+      "57657",
+      "57658",
+      "57659"
+    ],
+    "succeeded": [
+      "69502",
+      "57663",
+      "57655",
+      "57656",
+      "57657"
+    ],
+    "failed": [
+      {
+        "video_id": "68796",
+        "reason": "[youtube] pj0YH_l8TNM: This video is unavailable"
+      },
+      {
+        "video_id": "57653",
+        "reason": "unable to download video data: HTTP Error 403: Forbidden"
+      },
+      {
+        "video_id": "57664",
+        "reason": "[youtube] lJXvGI7r_Fc: This video is unavailable"
+      },
+      {
+        "video_id": "66598",
+        "reason": "[generic] THANK-YOU-1198: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "57665",
+        "reason": "[youtube] sH87G_Bz_nA: This video is unavailable"
+      },
+      {
+        "video_id": "57666",
+        "reason": "[youtube] t8Hr0IHghrQ: This video is unavailable"
+      },
+      {
+        "video_id": "57659",
+        "reason": "[generic] 14353: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "57667",
+        "reason": "[generic] thank: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "57658",
+        "reason": "[generic] thank: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "sign": {
+    "attempted": [
+      "66478",
+      "51621",
+      "68284",
+      "68466",
+      "70209",
+      "68154",
+      "51616",
+      "51617",
+      "51628",
+      "51614",
+      "51630",
+      "51633",
+      "51637",
+      "51615",
+      "51622"
+    ],
+    "succeeded": [
+      "51621",
+      "68154",
+      "51616",
+      "51617",
+      "51614",
+      "51633",
+      "51622",
+      "51615",
+      "70209"
+    ],
+    "failed": [
+      {
+        "video_id": "66478",
+        "reason": "[generic] SIGN-256: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "68284",
+        "reason": "[youtube] 6XHu1uXQmS0: This video is unavailable"
+      },
+      {
+        "video_id": "68466",
+        "reason": "[youtube] FyOFR1H6QoM: This video is unavailable"
+      },
+      {
+        "video_id": "51628",
+        "reason": "[generic] 22309: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "51630",
+        "reason": "[youtube] 7AAnD4DyOnE: This video is unavailable"
+      },
+      {
+        "video_id": "51637",
+        "reason": "[generic] sign: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      }
+    ]
+  },
+  "more": {
+    "attempted": [
+      "36826",
+      "69401",
+      "70222",
+      "36830",
+      "36832",
+      "36834",
+      "67906",
+      "36836",
+      "36837",
+      "36838",
+      "36839",
+      "36840",
+      "36827",
+      "36828",
+      "36829"
+    ],
+    "succeeded": [
+      "36826",
+      "36830",
+      "69401",
+      "70222",
+      "36837",
+      "36838",
+      "36827",
+      "36828",
+      "36829"
+    ],
+    "failed": [
+      {
+        "video_id": "36834",
+        "reason": "[generic] 5684: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "67906",
+        "reason": "[youtube] eKLTlUZlE9w: Private video"
+      },
+      {
+        "video_id": "36836",
+        "reason": "[generic] 8051: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "36839",
+        "reason": "[generic] more: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "36832",
+        "reason": "[generic] more: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "36840",
+        "reason": "[generic] more: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      }
+    ]
+  },
+  "problem": {
+    "attempted": [
+      "44677",
+      "44684",
+      "44685",
+      "44686",
+      "44687",
+      "44688",
+      "44689",
+      "66335",
+      "44680",
+      "67107",
+      "67105",
+      "44690",
+      "44691",
+      "44681",
+      "44682"
+    ],
+    "succeeded": [
+      "44677",
+      "44684",
+      "44688",
+      "44689",
+      "44680",
+      "44681",
+      "44682"
+    ],
+    "failed": [
+      {
+        "video_id": "44686",
+        "reason": "[generic] 6659: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "44687",
+        "reason": "[generic] 6661: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "66335",
+        "reason": "[generic] PROBLEM_1-2483: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "67105",
+        "reason": "[youtube] 5iOCz7V4-fA: Private video"
+      },
+      {
+        "video_id": "67107",
+        "reason": "[youtube] 2EVzT-lydyk: Private video"
+      },
+      {
+        "video_id": "44690",
+        "reason": "[generic] problem: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "44685",
+        "reason": "[generic] problem: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "44691",
+        "reason": "[generic] problem: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      }
+    ]
+  },
+  "emergency": {
+    "attempted": [
+      "18939",
+      "18942",
+      "18944",
+      "18946",
+      "18948",
+      "18949",
+      "18950"
+    ],
+    "succeeded": [
+      "18939",
+      "18942",
+      "18946",
+      "18944",
+      "18950"
+    ],
+    "failed": [
+      {
+        "video_id": "18949",
+        "reason": "[generic] 7133: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "18948",
+        "reason": "[generic] emergency: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "where": {
+    "attempted": [
+      "63079",
+      "68181",
+      "68998",
+      "63087",
+      "63088",
+      "63089",
+      "63090",
+      "66774",
+      "63081",
+      "67061",
+      "63091",
+      "63082",
+      "63083",
+      "63084",
+      "63085"
+    ],
+    "succeeded": [
+      "68181",
+      "63088",
+      "63079",
+      "63089",
+      "63081",
+      "63084",
+      "63082",
+      "63083"
+    ],
+    "failed": [
+      {
+        "video_id": "68998",
+        "reason": "[youtube] WlHOl9zIUpE: This video is unavailable"
+      },
+      {
+        "video_id": "63087",
+        "reason": "[generic] 14587: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "63090",
+        "reason": "[generic] where: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "66774",
+        "reason": "[generic] WHERE-1427: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "67061",
+        "reason": "[youtube] Mrb2M9RV_KM: Private video"
+      },
+      {
+        "video_id": "63091",
+        "reason": "[generic] where: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "63085",
+        "reason": "[generic] where2: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "name": {
+    "attempted": [
+      "37575",
+      "69405",
+      "68480",
+      "68106",
+      "37587",
+      "37588",
+      "37589",
+      "37580",
+      "67922",
+      "37590",
+      "37581",
+      "37582",
+      "37583",
+      "37584",
+      "37585"
+    ],
+    "succeeded": [
+      "37575",
+      "69405",
+      "37587",
+      "68106",
+      "37580",
+      "37588",
+      "37582",
+      "37581"
+    ],
+    "failed": [
+      {
+        "video_id": "68480",
+        "reason": "[youtube] GDAvnSKfZoU: This video is unavailable"
+      },
+      {
+        "video_id": "37589",
+        "reason": "[generic] name: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "67922",
+        "reason": "[youtube] yFYsa9KPUXc: Private video"
+      },
+      {
+        "video_id": "37585",
+        "reason": "[generic] 7751: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "37590",
+        "reason": "[generic] name: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "37583",
+        "reason": "[generic] name: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "37584",
+        "reason": "[generic] name-verb: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "appointment": {
+    "attempted": [
+      "03053",
+      "70155",
+      "03062",
+      "03063",
+      "65087",
+      "03055",
+      "67368",
+      "03056",
+      "03057",
+      "03058",
+      "03059",
+      "03060",
+      "03061"
+    ],
+    "succeeded": [
+      "70155",
+      "03053",
+      "03055",
+      "03056",
+      "03057",
+      "03058",
+      "03060",
+      "03059"
+    ],
+    "failed": [
+      {
+        "video_id": "03062",
+        "reason": "[generic] 6265: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "65087",
+        "reason": "[generic] APPOINTMENT-2074: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "67368",
+        "reason": "[youtube] T3geO4kqbQw: Private video"
+      },
+      {
+        "video_id": "03061",
+        "reason": "[generic] 22122: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "03063",
+        "reason": "[generic] appointment: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      }
+    ]
+  },
+  "sick": {
+    "attempted": [
+      "51494",
+      "69470",
+      "68152",
+      "68776",
+      "51516",
+      "51517",
+      "51502",
+      "51503",
+      "51504",
+      "51505",
+      "51506",
+      "51507",
+      "66475",
+      "51501",
+      "67201"
+    ],
+    "succeeded": [
+      "68152",
+      "69470",
+      "51494",
+      "51504",
+      "51502",
+      "51503",
+      "51501"
+    ],
+    "failed": [
+      {
+        "video_id": "68776",
+        "reason": "[youtube] OvCEWXAQXaY: This video is unavailable"
+      },
+      {
+        "video_id": "51516",
+        "reason": "[generic] sick: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "51507",
+        "reason": "[generic] 14644: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "66475",
+        "reason": "[generic] SICK-255: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "67201",
+        "reason": "[youtube] BuJZZAGk6GM: Private video"
+      },
+      {
+        "video_id": "51517",
+        "reason": "[generic] ill: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "51505",
+        "reason": "[generic] sick2: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "51506",
+        "reason": "[generic] sick: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "please": {
+    "attempted": [
+      "43213",
+      "69434",
+      "70220",
+      "68670",
+      "43225",
+      "43226",
+      "43217",
+      "67083",
+      "43218",
+      "43219",
+      "43220",
+      "43221",
+      "43222",
+      "43223",
+      "43224"
+    ],
+    "succeeded": [
+      "69434",
+      "43217",
+      "43219",
+      "43218",
+      "70220",
+      "43220",
+      "43224"
+    ],
+    "failed": [
+      {
+        "video_id": "43213",
+        "reason": "unable to download video data: HTTP Error 403: Forbidden"
+      },
+      {
+        "video_id": "68670",
+        "reason": "[youtube] LTVv46_N764: This video is unavailable"
+      },
+      {
+        "video_id": "43225",
+        "reason": "[generic] please: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "67083",
+        "reason": "[youtube] RHeFBNVYii4: Private video"
+      },
+      {
+        "video_id": "43223",
+        "reason": "[youtube] QyqHzUY36cw: This video is unavailable"
+      },
+      {
+        "video_id": "43222",
+        "reason": "[generic] 6966: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "43226",
+        "reason": "[generic] please: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "43221",
+        "reason": "[generic] please: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "here": {
+    "attempted": [
+      "27254",
+      "69365",
+      "68072",
+      "68610",
+      "27268",
+      "27269",
+      "27271",
+      "27272",
+      "65892",
+      "27263",
+      "67758",
+      "27273",
+      "27264",
+      "27265",
+      "27267"
+    ],
+    "succeeded": [
+      "69365",
+      "68072",
+      "27254",
+      "27269",
+      "27271",
+      "27264",
+      "27263",
+      "27265"
+    ],
+    "failed": [
+      {
+        "video_id": "68610",
+        "reason": "[youtube] jx9_Ip1EXhA: This video is unavailable"
+      },
+      {
+        "video_id": "27268",
+        "reason": "[generic] 5873: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "27272",
+        "reason": "[generic] here: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)"
+      },
+      {
+        "video_id": "65892",
+        "reason": "[generic] HERE-484: Unable to download webpage: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032) (caused by CertificateVerifyError(\"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.edu'. (_ssl.c:1032)\")); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+      },
+      {
+        "video_id": "67758",
+        "reason": "[youtube] e7ckmRr2la0: Private video"
+      },
+      {
+        "video_id": "27273",
+        "reason": "[generic] here: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "27267",
+        "reason": "[generic] here: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      }
+    ]
+  },
+  "now": {
+    "attempted": [
+      "38982",
+      "69413",
+      "38994",
+      "70345",
+      "68694",
+      "68770",
+      "68114",
+      "38999",
+      "39000",
+      "39001",
+      "39002",
+      "39003",
+      "38990",
+      "67937",
+      "39004"
+    ],
+    "succeeded": [
+      "69413",
+      "38994",
+      "38982",
+      "68114",
+      "70345",
+      "39001",
+      "39002",
+      "38990",
+      "39003",
+      "39004"
+    ],
+    "failed": [
+      {
+        "video_id": "68694",
+        "reason": "[youtube] mKDG2tGn1Y8: This video is unavailable"
+      },
+      {
+        "video_id": "68770",
+        "reason": "[youtube] OQM3x-HY2dM: This video is unavailable"
+      },
+      {
+        "video_id": "38999",
+        "reason": "[generic] 7774: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "39000",
+        "reason": "[generic] 9785: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)"
+      },
+      {
+        "video_id": "67937",
+        "reason": "[youtube] hIPRC-_00vs: Private video"
+      }
+    ]
+  }
+}
