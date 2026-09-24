@@ -1,0 +1,78 @@
+{
+  "showcase_words": [
+    "wait",
+    "doctor",
+    "thank you",
+    "more",
+    "sick",
+    "please",
+    "here",
+    "now"
+  ],
+  "val_accuracy": 0.5,
+  "best_epoch": 6,
+  "best_val_loss": 1.2570759057998657,
+  "classification_report": {
+    "wait": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "doctor": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "thank you": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.5,
+      "support": 1.0
+    },
+    "more": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "sick": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "please": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "here": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "now": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4,
+      "support": 2.0
+    },
+    "accuracy": 0.5,
+    "macro avg": {
+      "precision": 0.4583333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4458333333333333,
+      "support": 14.0
+    },
+    "weighted avg": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.4738095238095238,
+      "support": 14.0
+    }
+  }
+}

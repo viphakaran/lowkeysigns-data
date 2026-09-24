@@ -13,3 +13,5 @@ lowkeysigns/data/landmarks/
 aslr_project/data/raw/
 aslr_project/data/selected/
 aslr_project/models/*.pth
+*.joblib
+__pycache__/

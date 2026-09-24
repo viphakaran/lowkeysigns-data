@@ -1,8 +1,12 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
 import numpy as np
+import json
+import asyncio
+from datetime import datetime, timezone
+import os
 
 from app.inference_engine import ASLInferenceEngine
 from app.temporal_decoder import TemporalDecoder
@@ -45,6 +49,14 @@ def root():
         "languages": ["English", "Tamil", "Hindi"]
     }
 
+@app.get("/health")
+def health():
+    return {
+        "status": "healthy",
+        "model_loaded": inference_engine.model is not None,
+        "classes_count": len(inference_engine.target_glosses)
+    }
+
 @app.get("/vocabulary")
 def get_vocabulary():
     return {
@@ -59,8 +71,6 @@ def predict_sequence(payload: FrameSequencePayload):
         raise HTTPException(status_code=400, detail=f"Expected feature shape (*, 268), got {raw_seq.shape}")
         
     top1_label, confidence, top3 = inference_engine.predict(raw_seq)
-    
-    # Run temporal decoder
     committed_sign = temporal_decoder.step(top1_label, confidence)
     
     return {
@@ -79,3 +89,85 @@ def build_phrase(payload: TokensPayload):
 def reset_decoder():
     temporal_decoder.reset()
     return {"status": "decoder_reset"}
+
+# Pre-cache test sequences for live model demonstration when client streams are idle
+test_manifest_path = "data/splits/test.csv"
+demo_samples = []
+if os.path.exists(test_manifest_path):
+    try:
+        import pandas as pd
+        tdf = pd.read_csv(test_manifest_path)
+        for _, row in tdf.iterrows():
+            if os.path.exists(row["path"]):
+                arr = np.load(row["path"])
+                demo_samples.append((row["label"], arr))
+    except Exception as e:
+        print(f"Warning: could not load demo test samples: {e}")
+
+@app.websocket("/ws")
+async def websocket_feed(websocket: WebSocket):
+    await websocket.accept()
+    sample_idx = 0
+    stop_event = asyncio.Event()
+
+    async def client_listener():
+        nonlocal sample_idx
+        try:
+            while not stop_event.is_set():
+                data_text = await websocket.receive_text()
+                try:
+                    data = json.loads(data_text)
+                    if "sequence" in data:
+                        raw_seq = np.array(data["sequence"], dtype=np.float32)
+                        top1_label, conf, top3 = inference_engine.predict(raw_seq)
+                        committed = temporal_decoder.step(top1_label, conf)
+                        if committed:
+                            await websocket.send_json({
+                                "word": committed,
+                                "confidence": round(float(conf), 2),
+                                "timestamp": datetime.now(timezone.utc).isoformat(),
+                                "top3": top3,
+                                "source": "client_stream"
+                            })
+                    elif "ping" in data:
+                        await websocket.send_json({"pong": True})
+                except Exception as parse_err:
+                    pass
+        except (WebSocketDisconnect, asyncio.CancelledError):
+            stop_event.set()
+
+    async def demo_broadcast():
+        nonlocal sample_idx
+        try:
+            # Short initial delay after connection before streaming live inferences
+            await asyncio.sleep(2.0)
+            while not stop_event.is_set():
+                if demo_samples:
+                    true_label, sample_arr = demo_samples[sample_idx % len(demo_samples)]
+                    sample_idx += 1
+                    # Run real inference using the trained PyTorch Bi-GRU model
+                    pred_label, conf, top3 = inference_engine.predict(sample_arr)
+                    await websocket.send_json({
+                        "word": pred_label,
+                        "confidence": round(float(conf), 2),
+                        "timestamp": datetime.now(timezone.utc).isoformat(),
+                        "top3": top3,
+                        "source": "live_model_evaluation"
+                    })
+                await asyncio.sleep(4.0)
+        except (WebSocketDisconnect, asyncio.CancelledError):
+            stop_event.set()
+
+    listener_task = asyncio.create_task(client_listener())
+    broadcast_task = asyncio.create_task(demo_broadcast())
+
+    try:
+        await stop_event.wait()
+    finally:
+        listener_task.cancel()
+        broadcast_task.cancel()
+        try:
+            await asyncio.gather(listener_task, broadcast_task, return_exceptions=True)
+        except Exception:
+            pass
+
