@@ -1,0 +1,148 @@
+{
+  "all_found": true,
+  "missing_words": [],
+  "vocabulary_report": [
+    {
+      "word": "help",
+      "found": "yes",
+      "gloss_index": 12,
+      "original_gloss": "help",
+      "instance_count": 22
+    },
+    {
+      "word": "wait",
+      "found": "yes",
+      "gloss_index": 101,
+      "original_gloss": "wait",
+      "instance_count": 18
+    },
+    {
+      "word": "money",
+      "found": "yes",
+      "gloss_index": 299,
+      "original_gloss": "money",
+      "instance_count": 14
+    },
+    {
+      "word": "form",
+      "found": "yes",
+      "gloss_index": 537,
+      "original_gloss": "form",
+      "instance_count": 12
+    },
+    {
+      "word": "pain",
+      "found": "yes",
+      "gloss_index": 937,
+      "original_gloss": "pain",
+      "instance_count": 10
+    },
+    {
+      "word": "doctor",
+      "found": "yes",
+      "gloss_index": 60,
+      "original_gloss": "doctor",
+      "instance_count": 19
+    },
+    {
+      "word": "yes",
+      "found": "yes",
+      "gloss_index": 17,
+      "original_gloss": "yes",
+      "instance_count": 22
+    },
+    {
+      "word": "no",
+      "found": "yes",
+      "gloss_index": 13,
+      "original_gloss": "no",
+      "instance_count": 22
+    },
+    {
+      "word": "thank you",
+      "found": "yes",
+      "gloss_index": 333,
+      "original_gloss": "thank you",
+      "instance_count": 14
+    },
+    {
+      "word": "sign",
+      "found": "yes",
+      "gloss_index": 242,
+      "original_gloss": "sign",
+      "instance_count": 15
+    },
+    {
+      "word": "more",
+      "found": "yes",
+      "gloss_index": 222,
+      "original_gloss": "more",
+      "instance_count": 15
+    },
+    {
+      "word": "problem",
+      "found": "yes",
+      "gloss_index": 168,
+      "original_gloss": "problem",
+      "instance_count": 16
+    },
+    {
+      "word": "emergency",
+      "found": "yes",
+      "gloss_index": 1731,
+      "original_gloss": "emergency",
+      "instance_count": 7
+    },
+    {
+      "word": "where",
+      "found": "yes",
+      "gloss_index": 254,
+      "original_gloss": "where",
+      "instance_count": 15
+    },
+    {
+      "word": "name",
+      "found": "yes",
+      "gloss_index": 164,
+      "original_gloss": "name",
+      "instance_count": 16
+    },
+    {
+      "word": "appointment",
+      "found": "yes",
+      "gloss_index": 353,
+      "original_gloss": "appointment",
+      "instance_count": 13
+    },
+    {
+      "word": "sick",
+      "found": "yes",
+      "gloss_index": 129,
+      "original_gloss": "sick",
+      "instance_count": 17
+    },
+    {
+      "word": "please",
+      "found": "yes",
+      "gloss_index": 234,
+      "original_gloss": "please",
+      "instance_count": 15
+    },
+    {
+      "word": "here",
+      "found": "yes",
+      "gloss_index": 212,
+      "original_gloss": "here",
+      "instance_count": 15
+    },
+    {
+      "word": "now",
+      "found": "yes",
+      "gloss_index": 26,
+      "original_gloss": "now",
+      "instance_count": 21
+    }
+  ],
+  "total_words": 20,
+  "emergency_instance_count": 7
+}
