@@ -1,0 +1,74 @@
+{
+  "help_form": {
+    "tokens": ["help", "form"],
+    "en": "I need help with the form.",
+    "ta": "படிவத்திற்கு உதவி வேண்டும்.",
+    "hi": "मुझे फ़ॉर्म में मदद चाहिए।"
+  },
+  "doctor_pain": {
+    "tokens": ["doctor", "pain"],
+    "en": "I need to see a doctor, I am in pain.",
+    "ta": "எனக்கு மருத்துவர் வேண்டும், வலி அதிகமாக இருக்கிறது.",
+    "hi": "मुझे डॉक्टर से मिलना है, मुझे दर्द हो रहा है।"
+  },
+  "where_emergency": {
+    "tokens": ["where", "emergency"],
+    "en": "Where is the emergency department?",
+    "ta": "அவசர சிகிச்சை பிரிவு எங்கே உள்ளது?",
+    "hi": "आपातकालीन विभाग कहाँ है?"
+  },
+  "wait_name": {
+    "tokens": ["wait", "name"],
+    "en": "Please wait until your name is called.",
+    "ta": "உங்கள் பெயர் அழைக்கப்படும் வரை காத்திருக்கவும்.",
+    "hi": "कृपया अपना नाम पुकारे जाने तक प्रतीक्षा करें।"
+  },
+  "appointment_doctor": {
+    "tokens": ["appointment", "doctor"],
+    "en": "I have an appointment with the doctor.",
+    "ta": "எனக்கு மருத்துவரிடம் முன்பதிவு உள்ளது.",
+    "hi": "मेरा डॉक्टर के साथ अपॉइंटमेंट है।"
+  },
+  "sign_here": {
+    "tokens": ["sign", "here"],
+    "en": "Please sign here.",
+    "ta": "தயவுசெய்து இங்கே கையொப்பமிடுங்கள்.",
+    "hi": "कृपया यहाँ हस्ताक्षर करें।"
+  },
+  "more_time_wait": {
+    "tokens": ["more", "wait"],
+    "en": "Please wait a little more time.",
+    "ta": "இன்னும் சிறிது நேரம் காத்திருக்கவும்.",
+    "hi": "कृपया थोड़ा और इंतज़ार करें।"
+  },
+  "have_problem": {
+    "tokens": ["problem", "help"],
+    "en": "I have a problem and need assistance.",
+    "ta": "எனக்கு ஒரு பிரச்சனை உள்ளது, உதவி தேவை.",
+    "hi": "मुझे एक समस्या है और सहायता की आवश्यकता है।"
+  },
+  "sick_today": {
+    "tokens": ["sick", "now"],
+    "en": "I am feeling sick right now.",
+    "ta": "நான் இப்போது உடல்நிலை சரியில்லாமல் உணர்கிறேன்.",
+    "hi": "मैं अभी अस्वस्थ महसूस कर रहा हूँ।"
+  },
+  "thank_you": {
+    "tokens": ["thank you"],
+    "en": "Thank you very much.",
+    "ta": "மிக்க நன்றி.",
+    "hi": "बहुत बहुत धन्यवाद।"
+  },
+  "please_help": {
+    "tokens": ["please", "help"],
+    "en": "Please help me.",
+    "ta": "தயவுசெய்து எனக்கு உதவுங்கள்.",
+    "hi": "कृपया मेरी मदद करें।"
+  },
+  "pay_money": {
+    "tokens": ["money", "form"],
+    "en": "Where do I pay for this form?",
+    "ta": "இந்த படிவத்திற்கு நான் எங்கு பணம் செலுத்த வேண்டும்?",
+    "hi": "इस फ़ॉर्म के लिए मुझे कहाँ भुगतान करना होगा?"
+  }
+}
