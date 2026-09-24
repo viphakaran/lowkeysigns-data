@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.mp4
+*.avi
+*.mov
+*.mkv
+data/raw/
+data/selected/videos/
+data/selected/frames/
+*.task
+.DS_Store
+*.swp

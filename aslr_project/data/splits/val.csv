@@ -1,0 +1,22 @@
+video_id,label,signer_id,source_dataset,split_original,path,num_frames,is_augmented
+70155,appointment,wlasl_121,WLASL,train,data/selected/landmarks/appointment/70155_orig.npy,17,False
+70049,doctor,wlasl_121,WLASL,train,data/selected/landmarks/doctor/70049_orig.npy,53,False
+18946,emergency,wlasl_21,WLASL,train,data/selected/landmarks/emergency/18946_orig.npy,50,False
+23042,form,wlasl_37,WLASL,test,data/selected/landmarks/form/23042_orig.npy,49,False
+69364,help,wlasl_115,WLASL,val,data/selected/landmarks/help/69364_orig.npy,57,False
+27265,here,wlasl_21,WLASL,train,data/selected/landmarks/here/27265_orig.npy,45,False
+70075,money,wlasl_121,WLASL,train,data/selected/landmarks/money/70075_orig.npy,40,False
+36828,more,wlasl_36,WLASL,train,data/selected/landmarks/more/36828_orig.npy,33,False
+37588,name,wlasl_5,WLASL,val,data/selected/landmarks/name/37588_orig.npy,47,False
+38482,no,wlasl_9,WLASL,test,data/selected/landmarks/no/38482_orig.npy,80,False
+39001,now,wlasl_5,WLASL,train,data/selected/landmarks/now/39001_orig.npy,62,False
+40803,pain,wlasl_13,WLASL,train,data/selected/landmarks/pain/40803_orig.npy,66,False
+43224,please,wlasl_5,WLASL,train,data/selected/landmarks/please/43224_orig.npy,43,False
+44684,problem,wlasl_13,WLASL,test,data/selected/landmarks/problem/44684_orig.npy,69,False
+51502,sick,wlasl_38,WLASL,train,data/selected/landmarks/sick/51502_orig.npy,42,False
+51617,sign,wlasl_6,WLASL,train,data/selected/landmarks/sign/51617_orig.npy,34,False
+57655,thank you,wlasl_46,WLASL,train,data/selected/landmarks/thank you/57655_orig.npy,31,False
+62103,wait,wlasl_13,WLASL,train,data/selected/landmarks/wait/62103_orig.npy,65,False
+63088,where,wlasl_64,WLASL,train,data/selected/landmarks/where/63088_orig.npy,104,False
+64287,yes,wlasl_13,WLASL,val,data/selected/landmarks/yes/64287_orig.npy,49,False
+64284,yes,wlasl_3,WLASL,train,data/selected/landmarks/yes/64284_orig.npy,36,False
