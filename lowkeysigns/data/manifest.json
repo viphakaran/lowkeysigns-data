@@ -19,11 +19,11 @@
     ],
     "succeeded": [
       "27194",
-      "69364",
       "27206",
-      "27208",
       "27207",
-      "27209"
+      "27208",
+      "27209",
+      "69364"
     ],
     "failed": [
       {
@@ -84,12 +84,12 @@
     ],
     "succeeded": [
       "62077",
+      "62097",
       "62098",
       "62100",
       "62101",
-      "62103",
       "62102",
-      "62097",
+      "62103",
       "62109"
     ],
     "failed": [
@@ -142,12 +142,12 @@
     ],
     "succeeded": [
       "36645",
-      "70075",
-      "36652",
-      "36651",
       "36648",
+      "36651",
+      "36652",
       "36657",
-      "36658"
+      "36658",
+      "70075"
     ],
     "failed": [
       {
@@ -197,10 +197,10 @@
     ],
     "succeeded": [
       "23042",
-      "23053",
       "23043",
+      "23045",
       "23046",
-      "23045"
+      "23053"
     ],
     "failed": [
       {
@@ -299,13 +299,12 @@
     ],
     "succeeded": [
       "17007",
-      "17015",
+      "17013",
       "17016",
-      "70049",
       "17017",
       "17022",
-      "17013",
-      "17023"
+      "17023",
+      "70049"
     ],
     "failed": [
       {
@@ -335,6 +334,10 @@
       {
         "video_id": "17018",
         "reason": "[generic] doctor: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "17015",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -358,15 +361,15 @@
     ],
     "succeeded": [
       "64275",
-      "64287",
-      "68192",
-      "69546",
-      "64284",
-      "64294",
-      "64296",
-      "64295",
       "64280",
-      "64297"
+      "64284",
+      "64287",
+      "64294",
+      "64295",
+      "64296",
+      "64297",
+      "68192",
+      "69546"
     ],
     "failed": [
       {
@@ -410,16 +413,15 @@
       "38532"
     ],
     "succeeded": [
-      "68110",
-      "69411",
       "38482",
+      "38527",
+      "38529",
+      "38530",
       "38539",
       "38540",
       "38541",
-      "38525",
-      "38530",
-      "38529",
-      "38527"
+      "68110",
+      "69411"
     ],
     "failed": [
       {
@@ -441,6 +443,10 @@
       {
         "video_id": "38531",
         "reason": "[generic] no: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "38525",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -462,11 +468,11 @@
       "57659"
     ],
     "succeeded": [
-      "69502",
-      "57663",
       "57655",
       "57656",
-      "57657"
+      "57657",
+      "57663",
+      "69502"
     ],
     "failed": [
       {
@@ -526,14 +532,12 @@
       "51622"
     ],
     "succeeded": [
-      "51621",
-      "68154",
+      "51614",
       "51616",
       "51617",
-      "51614",
-      "51633",
+      "51621",
       "51622",
-      "51615",
+      "51633",
       "70209"
     ],
     "failed": [
@@ -560,6 +564,14 @@
       {
         "video_id": "51637",
         "reason": "[generic] sign: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "51615",
+        "reason": "too many consecutive empty frames"
+      },
+      {
+        "video_id": "68154",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -583,14 +595,13 @@
     ],
     "succeeded": [
       "36826",
-      "36830",
-      "69401",
-      "70222",
-      "36837",
-      "36838",
       "36827",
       "36828",
-      "36829"
+      "36829",
+      "36830",
+      "36837",
+      "36838",
+      "70222"
     ],
     "failed": [
       {
@@ -616,6 +627,10 @@
       {
         "video_id": "36840",
         "reason": "[generic] more: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "69401",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -639,12 +654,12 @@
     ],
     "succeeded": [
       "44677",
-      "44684",
-      "44688",
-      "44689",
       "44680",
       "44681",
-      "44682"
+      "44682",
+      "44684",
+      "44688",
+      "44689"
     ],
     "failed": [
       {
@@ -693,9 +708,8 @@
     ],
     "succeeded": [
       "18939",
-      "18942",
-      "18946",
       "18944",
+      "18946",
       "18950"
     ],
     "failed": [
@@ -706,6 +720,10 @@
       {
         "video_id": "18948",
         "reason": "[generic] emergency: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "18942",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -728,14 +746,13 @@
       "63085"
     ],
     "succeeded": [
-      "68181",
-      "63088",
       "63079",
-      "63089",
       "63081",
+      "63083",
       "63084",
-      "63082",
-      "63083"
+      "63088",
+      "63089",
+      "68181"
     ],
     "failed": [
       {
@@ -765,6 +782,10 @@
       {
         "video_id": "63085",
         "reason": "[generic] where2: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "63082",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -788,13 +809,13 @@
     ],
     "succeeded": [
       "37575",
-      "69405",
-      "37587",
-      "68106",
       "37580",
-      "37588",
+      "37581",
       "37582",
-      "37581"
+      "37587",
+      "37588",
+      "68106",
+      "69405"
     ],
     "failed": [
       {
@@ -844,14 +865,11 @@
       "03061"
     ],
     "succeeded": [
-      "70155",
       "03053",
-      "03055",
       "03056",
-      "03057",
       "03058",
       "03060",
-      "03059"
+      "70155"
     ],
     "failed": [
       {
@@ -873,6 +891,18 @@
       {
         "video_id": "03063",
         "reason": "[generic] appointment: Unable to download webpage: timed out (caused by TransportError('timed out'))"
+      },
+      {
+        "video_id": "03055",
+        "reason": "too many consecutive empty frames"
+      },
+      {
+        "video_id": "03057",
+        "reason": "too many consecutive empty frames"
+      },
+      {
+        "video_id": "03059",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -895,13 +925,11 @@
       "67201"
     ],
     "succeeded": [
-      "68152",
-      "69470",
       "51494",
-      "51504",
+      "51501",
       "51502",
       "51503",
-      "51501"
+      "69470"
     ],
     "failed": [
       {
@@ -935,6 +963,14 @@
       {
         "video_id": "51506",
         "reason": "[generic] sick: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "51504",
+        "reason": "too many consecutive empty frames"
+      },
+      {
+        "video_id": "68152",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -957,13 +993,12 @@
       "43224"
     ],
     "succeeded": [
-      "69434",
       "43217",
-      "43219",
       "43218",
-      "70220",
+      "43219",
       "43220",
-      "43224"
+      "43224",
+      "69434"
     ],
     "failed": [
       {
@@ -997,6 +1032,10 @@
       {
         "video_id": "43221",
         "reason": "[generic] please: Unable to download webpage: _ssl.c:1015: The handshake operation timed out (caused by TransportError('_ssl.c:1015: The handshake operation timed out'))"
+      },
+      {
+        "video_id": "70220",
+        "reason": "too many consecutive empty frames"
       }
     ]
   },
@@ -1019,14 +1058,14 @@
       "27267"
     ],
     "succeeded": [
-      "69365",
-      "68072",
       "27254",
-      "27269",
-      "27271",
       "27264",
       "27263",
-      "27265"
+      "27265",
+      "27269",
+      "27271",
+      "68072",
+      "69365"
     ],
     "failed": [
       {
@@ -1078,16 +1117,15 @@
       "39004"
     ],
     "succeeded": [
-      "69413",
-      "38994",
       "38982",
-      "68114",
-      "70345",
+      "38990",
+      "38994",
       "39001",
       "39002",
-      "38990",
       "39003",
-      "39004"
+      "39004",
+      "68114",
+      "70345"
     ],
     "failed": [
       {
@@ -1109,6 +1147,10 @@
       {
         "video_id": "67937",
         "reason": "[youtube] hIPRC-_00vs: Private video"
+      },
+      {
+        "video_id": "69413",
+        "reason": "too many consecutive empty frames"
       }
     ]
   }

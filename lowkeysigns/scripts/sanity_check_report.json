@@ -1,0 +1,186 @@
+{
+  "total_classes": 20,
+  "total_npy_files": 135,
+  "total_disk_size_bytes": 6912872,
+  "total_disk_size_human": "6.59 MB",
+  "emergency_details": {
+    "class": "emergency",
+    "npy_count": 4,
+    "avg_frames": 49.75,
+    "min_frames": 32,
+    "max_frames": 77,
+    "status": "AT-RISK (<5)"
+  },
+  "at_risk_classes": [
+    {
+      "class": "pain",
+      "count": 4
+    },
+    {
+      "class": "emergency",
+      "count": 4
+    }
+  ],
+  "class_statistics": [
+    {
+      "class": "help",
+      "npy_count": 6,
+      "avg_frames": 47.83,
+      "min_frames": 43,
+      "max_frames": 57,
+      "status": "OK"
+    },
+    {
+      "class": "wait",
+      "npy_count": 8,
+      "avg_frames": 50.38,
+      "min_frames": 23,
+      "max_frames": 65,
+      "status": "OK"
+    },
+    {
+      "class": "money",
+      "npy_count": 7,
+      "avg_frames": 48.57,
+      "min_frames": 29,
+      "max_frames": 72,
+      "status": "OK"
+    },
+    {
+      "class": "form",
+      "npy_count": 5,
+      "avg_frames": 40.6,
+      "min_frames": 28,
+      "max_frames": 49,
+      "status": "OK"
+    },
+    {
+      "class": "pain",
+      "npy_count": 4,
+      "avg_frames": 60.25,
+      "min_frames": 35,
+      "max_frames": 77,
+      "status": "AT-RISK (<5)"
+    },
+    {
+      "class": "doctor",
+      "npy_count": 7,
+      "avg_frames": 51.57,
+      "min_frames": 47,
+      "max_frames": 60,
+      "status": "OK"
+    },
+    {
+      "class": "yes",
+      "npy_count": 10,
+      "avg_frames": 42.1,
+      "min_frames": 28,
+      "max_frames": 70,
+      "status": "OK"
+    },
+    {
+      "class": "no",
+      "npy_count": 9,
+      "avg_frames": 57.11,
+      "min_frames": 33,
+      "max_frames": 80,
+      "status": "OK"
+    },
+    {
+      "class": "thank you",
+      "npy_count": 5,
+      "avg_frames": 43.8,
+      "min_frames": 31,
+      "max_frames": 64,
+      "status": "OK"
+    },
+    {
+      "class": "sign",
+      "npy_count": 7,
+      "avg_frames": 50.86,
+      "min_frames": 9,
+      "max_frames": 152,
+      "status": "OK"
+    },
+    {
+      "class": "more",
+      "npy_count": 8,
+      "avg_frames": 53.38,
+      "min_frames": 23,
+      "max_frames": 91,
+      "status": "OK"
+    },
+    {
+      "class": "problem",
+      "npy_count": 7,
+      "avg_frames": 50.86,
+      "min_frames": 38,
+      "max_frames": 69,
+      "status": "OK"
+    },
+    {
+      "class": "emergency",
+      "npy_count": 4,
+      "avg_frames": 49.75,
+      "min_frames": 32,
+      "max_frames": 77,
+      "status": "AT-RISK (<5)"
+    },
+    {
+      "class": "where",
+      "npy_count": 7,
+      "avg_frames": 63.71,
+      "min_frames": 32,
+      "max_frames": 104,
+      "status": "OK"
+    },
+    {
+      "class": "name",
+      "npy_count": 8,
+      "avg_frames": 42.12,
+      "min_frames": 29,
+      "max_frames": 58,
+      "status": "OK"
+    },
+    {
+      "class": "appointment",
+      "npy_count": 5,
+      "avg_frames": 49.0,
+      "min_frames": 17,
+      "max_frames": 74,
+      "status": "OK"
+    },
+    {
+      "class": "sick",
+      "npy_count": 5,
+      "avg_frames": 47.4,
+      "min_frames": 40,
+      "max_frames": 60,
+      "status": "OK"
+    },
+    {
+      "class": "please",
+      "npy_count": 6,
+      "avg_frames": 54.5,
+      "min_frames": 42,
+      "max_frames": 74,
+      "status": "OK"
+    },
+    {
+      "class": "here",
+      "npy_count": 8,
+      "avg_frames": 57.75,
+      "min_frames": 42,
+      "max_frames": 80,
+      "status": "OK"
+    },
+    {
+      "class": "now",
+      "npy_count": 9,
+      "avg_frames": 45.11,
+      "min_frames": 11,
+      "max_frames": 62,
+      "status": "OK"
+    }
+  ]
+}
